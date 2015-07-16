@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weight1">极度偏瘦，要好好补充营养哦！！！</string>
+    <string name="weight2">偏瘦，多吃点哦！！！</string>
+    <string name="weight3">正常，继续保持哦！！！</string>
+    <string name="weight4">偏胖，少吃零食哦！！！</string>
+    <string name="weight5">肥胖，加强锻炼哦！！！</string>
+    <string name="weight6">重度肥胖，要合理饮食哦！！！</string>
+    <string name="weight7">极度肥胖，！！！</string>
+</resources>

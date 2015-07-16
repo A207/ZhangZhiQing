@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadeScrollbars="true"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:background="@mipmap/lan"
+    >
+
+    <TextView android:text="       体重指数计算器"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:id="@+id/center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="身高"
+        android:paddingTop="10dp"
+        android:textSize="25sp"
+        android:textColor="#000000"
+
+
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="请输入身高,单位厘米"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/Height"
+
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="体重"
+        android:paddingTop="10dp"
+        android:textSize="25sp"
+        android:textColor="#000000"
+
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="请输入体重,单位千克"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/Weight"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="计算BMI"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btn"
+        android:textSize="28sp"
+        android:background="#ffaacbff"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:paddingTop="30dp"
+        android:id="@+id/result"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="40dp"
+        android:textSize="20sp"
+        android:id="@+id/suggest"/>
+
+</LinearLayout>
